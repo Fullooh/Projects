@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    cursor: url("http://www.rw-designer.com/cursor-view/72149.png"), auto;
+    cursor: url("http://www.rw-designer.com/cursor-view/970.png"), auto;
     font-family: 'Dosis', sans-serif;
     background: #222;
     background-image: url('https://images.unsplash.com/photo-1501418611786-e29f9929fe03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
@@ -36,7 +36,7 @@ button {
     outline: none;
     background: #7c7c7c2b;
     color: cyan;
-    cursor: pointer;
+    cursor: url("http://www.rw-designer.com/cursor-view/969.png"), auto;
     transition: 0.2s ease-in-out;
 }
 
