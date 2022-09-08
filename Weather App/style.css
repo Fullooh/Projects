@@ -24,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 button {
@@ -58,4 +57,8 @@ button:hover {
 
 h2.temp {
     margin: 0;
+}
+
+cursor{
+    cursor: url("https://cdn-icons-png.flaticon.com/512/2956/2956686.png");
 }
