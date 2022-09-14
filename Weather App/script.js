@@ -22,7 +22,23 @@ let weather = {
         document.querySelector(".temp").innerText = temp + "°F";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind Speed: " + speed + "km/h";
-    } 
-    
+    }, 
+    search: function(){
+        input = document.querySelector(".search-bar").value
+        input = input.split(',')
+
+
+        this.fetchWeather(input[0], input[1]);
+    }
 };
 
+document.querySelector(".search button").addEventListener("click", function() {
+    weather.search();
+})
+
+document.querySelector(".search-bar").addEventListener("keyup", function(event) {
+    if (event.key == "Enter"){
+            weather.search();
+    }
+
+})
